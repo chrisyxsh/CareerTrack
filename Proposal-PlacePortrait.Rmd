@@ -1,0 +1,42 @@
+---
+title: "Proposal for Capstone Project One"
+author: "Xu Yang"
+date: "2/20/2018"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+## Project Name: Place Portrait
+Problem: When someone want to move to some place to live, or trval to some city, or have a long vocation to explore more ploaces, they usually have some questions such as "Where to go?", "How's the place?","What's funny in this area?",etc,. People can use  yelp, google, or tourist guides to find some restaurants,sceneries. But information they searched most probably is about a specific spot. How about a area, for example, within 25 square miles? This area maybe has many museums and souvenir stores, that place maybe has many Cafe and restaurants, another place maybe has many gyms,hotels,and rental apartments. If people can make a sketch or even a portrait for places, they can make better plans for saving money and saving time.
+
+## Who might care?
+1. Tourists and tourism industry companies. 
+2. Business investors who want to invest on restaurants,hotels,commercial estates.
+3. People want to rent or purchase real estates.
+
+## Data
+
+The basic dataset comes from [Yelp Dataset](https://www.yelp.com/dataset). It has six categories: business, review, user, checkin, tip, photos, including 1.2 million business attributes like hours, parking, availability, and ambience, covering four countries and eleven metropolitans.
+
+In this project, we will focus on business, review and tip. We use business data to sketch a place, use review to do coloring and shadowing, and use tip to highlight the final portrait.
+
+We can portrait a place as big as a metropolian, or smaller as city, even smaller and smaller by post-code. 
+
+## Modeling approach
+
+1. To do sketching, we firstly need doing business classification and category ranking.
+
+2. Then we use Natural Language Processing & Sentiment Analysis to know how those business places are which you are caring about.
+
+3. Finally we extract useful tips for your interests.
+
+# Deliverables:
+ 1. Codes for: data acquisition & cleaning, data exploration,  modeling, data visulization.
+ 2. Capstone project report
+ 3. Capstone project presentation
+
+
+
+
