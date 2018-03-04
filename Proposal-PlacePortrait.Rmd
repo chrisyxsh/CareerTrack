@@ -26,9 +26,9 @@ We can portrait a place as big as a metropolian, or smaller as city, even smalle
 
 ## Modeling approach
 
-1. To do sketching, we firstly need doing business classification and category ranking.
+1. To do sketching, we firstly need to do business classification and category ranking.By this step, we will workout which businesses are leading popular in an area according to neighborhood,or zipcode,or city etc,.We can use business number, business stars and business hours to caculate weight for a business categories.
 
-2. Then we use Natural Language Processing & Sentiment Analysis to know how those business places are which you are caring about.
+2. Then we use Natural Language Processing & Sentiment Analysis to deal with reviews.We need to know how people there talk about services of those businesses, and if there are some change happening in those business，good or bad,enjoy or disappointed,etc,.
 
 3. Finally we extract useful tips for your interests.
 
